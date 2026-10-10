@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sugam Agrawal — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <strong>SA</strong>
+    <div class="links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#certs">Certifications</a><a href="#contact">Contact</a>
+    </div>
+    <button id="themeBtn" type="button" aria-label="Toggle dark or light theme">Theme</button>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="top">
+    <h1>Sugam Agrawal</h1>
+    <div class="role">ASPIRING SOFTWARE ENGINEER</div>
+    <p>B.Tech Computer Science student building full-stack web applications with the JAVA full  stack.
+       Looking for a software engineering internship.</p>
+    <a class="btn primary" href="#projects">View Project</a>
+    <a class="btn" href="#contact">Contact Me</a>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2>About &amp; Education</h2>
+    <div class="card">
+      <p style="margin-top:0">I want to apply my skills in full-stack development, object-oriented programming and
+         problem-solving to real-world projects while building depth in data structures, algorithms
+         and scalable system design.</p>
+      <h3>B.Tech, Computer Science &amp; Engineering</h3>
+      <p class="meta">Bansal Institute of Science and Technology, Bhopal · Expected 2028 · CGPA 7.1 / 10</p>
+      <p class="meta" style="margin:0">Campion School, Bhopal — Class XII (2023): 61% · Class X (2021): 91%</p>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card"><h3>Languages</h3><div class="chips"><span class="chip">C</span><span class="chip">C++</span><span class="chip">Java</span><span class="chip">Python</span></div></div>
+      <div class="card"><h3>Web Development</h3><div class="chips"><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">React.js</span></div></div>
+      <div class="card"><h3>Frameworks &amp; Database</h3><div class="chips"><span class="chip">Spring Boot</span><span class="chip">MongoDB</span></div></div>
+      <div class="card"><h3>Core Concepts</h3><div class="chips"><span class="chip">DSA</span><span class="chip">OOP</span><span class="chip">Operating Systems</span></div></div>
+      <div class="card"><h3>Cloud &amp; Tools</h3><div class="chips"><span class="chip">AWS</span><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span class="chip">Claude</span></div></div>
+      <div class="card"><h3>Operating Systems</h3><div class="chips"><span class="chip">macOS</span><span class="chip">Windows</span></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Doctor Appointment System</h3>
+      <p class="meta">Jan 2026</p>
+      <div class="chips"><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">MongoDB</span><span class="chip">React.js</span></div>
+      <ul>
+        <li>Built a role-based MERN stack web app where doctors and patients can register, book, manage and cancel appointments.</li>
+        <li>Implemented JWT authentication and protected routes for secure, role-specific access.</li>
+        <li>Designed appointment slot management logic to prevent double-booking.</li>
+        <li>Developed dashboards for doctors and patients to track appointment status.</li>
+      </ul>
+      <!-- TODO: replace this href with your project's own repository link -->
+      <p style="margin-bottom:0"><a href="https://github.com/sugam-agrawal123" target="_blank" rel="noopener">View on GitHub →</a></p>
+    </div>
+  </section>
+
+  <section id="certs" class="reveal">
+    <h2>Certifications</h2>
+    <div class="card">
+      <ul style="margin:0">
+        <li>HTML Essentials 1 — Cisco Networking Academy</li>
+        <li style="margin:0">Java Essentials 1 &amp; 2 — Cisco Networking Academy</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Contact</h2>
+    <div class="card">
+      <p style="margin-top:0">Open to internship opportunities — feel free to reach out.</p>
+      <a class="btn primary" href="mailto:sgsugam.agr@gmail.com">Email Me</a>
+      <button class="btn" id="copyBtn" type="button" style="background:none;color:var(--accent);cursor:pointer;font-size:1rem">Copy Email</button>
+      <a class="btn" href="https://www.linkedin.com/in/sugam-agrawal-721a5332b/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/sugam-agrawal123" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>© <span id="year"></span> Sugam Agrawal</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
